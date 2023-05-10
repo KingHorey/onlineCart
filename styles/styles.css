@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border: .9px solid transparent;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem .10rem;
+  width: 80%;
+  border: 1px solid transparent;
+}
+
+
+.image {
+  width: 22vw;
+  height: 28vh;
+  background: url("../images/illustration-hero.svg") no-repeat;
+  background-size: 100% 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+
+
+.mainContainer {
+  width: 22vw;
+  border: 1px solid white;
+  box-shadow: 3px 6px 9px hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: .5rem;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(225, 100%, 98%);
+  justify-content: space-between;
+  align-items: center;
+  padding: .8rem .9rem;
+  margin: 1.3rem 0;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.pricing a {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.pricing-child {
+  display: flex;
+  height: 60px;
+  align-content: center;
+  /* justify-content: space-evenly; */
+  /* width: 70%; */
+}
+
+.pricing-child {
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+  /* flex-direction: column; */
+}
+
+.pricing-child:first-child img {
+  /* display: flex; */
+  /* align-items: center; */
+  /* position: relative;
+  top: 12%; */
+  /* flex-direction: ; */
+}
+
+
+.pricing h2 {
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.texts {
+  padding: 0rem 1rem;
+}
+
+.texts h1{
+  margin: 1.3rem auto;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.texts p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+/* media queries */
+
+@media (max-width: 1000px) {
+
+}
